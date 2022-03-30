@@ -60,8 +60,7 @@ const getWeatherDataFromApi = async() =>{
         // form.reset() ==> input.value = "";
 
         form.reset();
-        input.focus();
-            
+        input.focus();    
     } 
     catch (error) {
         msg.innerText = error;
@@ -69,5 +68,4 @@ const getWeatherDataFromApi = async() =>{
             msg.innerText = "";
         }, 5000);
     }
-
 }
